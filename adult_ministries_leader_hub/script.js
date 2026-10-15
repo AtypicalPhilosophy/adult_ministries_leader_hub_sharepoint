@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // SIMPLE SHARED-PASSWORD GATE
 // Change this placeholder to your chosen shared password before publishing.
 // IMPORTANT: This password is stored in public-facing JavaScript and can be discovered.
@@ -35,6 +36,8 @@ if (passwordForm) {
   });
 }
 
+=======
+>>>>>>> 88147aedb935dbb0f6abbb2f322b119a7fa7e93e
 const searchInput = document.getElementById('resourceSearch');
 const cards = [...document.querySelectorAll('.resource-card')];
 const filterButtons = [...document.querySelectorAll('.filter-chip')];

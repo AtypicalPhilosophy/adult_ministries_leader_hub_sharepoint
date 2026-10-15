@@ -29,6 +29,7 @@ Create a Pages project and deploy these static files using its upload/deployment
 This website is static and does **not** provide login or enforce access restrictions. Anyone who obtains the website URL can visit the site. SharePoint permissions are enforced by Microsoft 365, separately from this website.
 
 For each SharePoint folder/page/document, set the appropriate permission in SharePoint. If all ministry leaders should have access, use your organization's approved sharing method for that group. Do not set sensitive Care resources to “Anyone” unless your church has explicitly approved that and the content is suitable for public link sharing. Care resources can involve sensitive information; keep confidential pastoral or personal information in appropriately permissioned systems. The website can link to a restricted SharePoint item, but users will need to sign in and have permission to open it.
+<<<<<<< HEAD
 
 
 ## Optional shared-password screen
@@ -41,3 +42,5 @@ A basic password entry screen has been added to the website.
 4. Save the file, then commit and push your changes to GitHub.
 
 Security limitation: this is only a basic front-end gate. The password is included in JavaScript sent to visitors and can be discovered by a technically knowledgeable person; it does not prevent direct access to the page's files or source. Do not use it to protect confidential care information or other sensitive resources. SharePoint permissions still apply to the linked resources. For stronger website protection, use Cloudflare Access.
+=======
+>>>>>>> 88147aedb935dbb0f6abbb2f322b119a7fa7e93e
