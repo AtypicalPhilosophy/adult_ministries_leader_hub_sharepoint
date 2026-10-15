@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A central resource hub for ministry leaders.">
+  <title>Adult Ministries | Leader Resource Hub</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Ministry Leader Hub home">
+      <span class="brand-mark">M</span>
+      <span><strong>Adult Ministries</strong><small>LEADER RESOURCE HUB</small></span>
+    </a>
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="#resources">Resources</a>
+      <a href="#training">Training</a>
+      <a href="#events">Events</a>
+      <a href="#help">Get help</a>
+    </nav>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">ADULT MINISTRIES · LEADER RESOURCE CENTER</p>
+        <h1>Helping people<br><em>grow together.</em></h1>
+        <p class="hero-text">Find the guides, tools, training, and practical resources you need to create meaningful community and help adults take their next step in faith.</p>
+        <a class="button button-light" href="#resources">Explore resources <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-card card-back"></div>
+        <div class="art-card card-mid"><span class="art-line"></span><span class="art-line short"></span><span class="art-block"></span></div>
+        <div class="art-card card-front"><span class="art-label">ADULT MINISTRIES</span><span class="art-symbol">✳</span><span class="art-line"></span><span class="art-line short"></span><span class="art-pill">READY TO USE</span></div>
+      </div>
+    </section>
+
+    <section class="welcome section-wrap">
+      <div>
+        <p class="eyebrow">WELCOME</p>
+        <h2>We’re glad you’re here.</h2>
+      </div>
+      <p class="welcome-copy">Use this hub as your home base for leading people, preparing gatherings, finding answers, and sharing life together. Browse a category or search for a specific resource.</p>
+    </section>
+
+    <section class="search-section section-wrap" aria-label="Search resources">
+      <label class="search-box">
+        <span aria-hidden="true">⌕</span>
+        <input id="resourceSearch" type="search" placeholder="Search guides, training, forms…" autocomplete="off">
+        <kbd>SEARCH</kbd>
+      </label>
+      <div class="filter-row" id="filterRow" aria-label="Filter resource areas">
+        <button class="filter-chip active" data-filter="all">All areas</button>
+        <button class="filter-chip" data-filter="marriage">Marriage</button>
+        <button class="filter-chip" data-filter="care">Care</button>
+        <button class="filter-chip" data-filter="bible-study">Bible Study</button>
+      </div>
+    </section>
+
+    <section class="section-wrap resource-section" id="resources">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE LIBRARY</p><h2>Explore resource areas</h2></div>
+        <span class="result-count" id="resultCount">3 resource areas</span>
+      </div>
+      <div class="resource-grid" id="resourceGrid">
+        <article class="resource-card resource-area-card" data-category="marriage" data-search="marriage couples relationship communication premarital enrichment resources sharepoint">
+          <div class="resource-icon peach"><span aria-hidden="true">♡</span></div>
+          <p class="card-category">RESOURCE AREA 01</p>
+          <h3>Marriage</h3>
+          <p>Resources to support couples and strengthen marriages, including discussion tools, event materials, and practical guidance.</p>
+          <a class="resource-link" href="#" data-placeholder="Marriage SharePoint folder">Explore marriage resources <span>↗</span></a>
+        </article>
+        <article class="resource-card resource-area-card" data-category="care" data-search="care pastoral care support prayer visitation referrals helping people resources sharepoint">
+          <div class="resource-icon sage"><span aria-hidden="true">✳</span></div>
+          <p class="card-category">RESOURCE AREA 02</p>
+          <h3>Care</h3>
+          <p>Helpful resources for caring for people well, responding thoughtfully, and connecting people with appropriate support.</p>
+          <a class="resource-link" href="#" data-placeholder="Care SharePoint folder">Explore care resources <span>↗</span></a>
+        </article>
+        <article class="resource-card resource-area-card" data-category="bible-study" data-search="bible study scripture discussion curriculum study guides questions lesson resources sharepoint">
+          <div class="resource-icon lavender"><span aria-hidden="true">▤</span></div>
+          <p class="card-category">RESOURCE AREA 03</p>
+          <h3>Bible Study</h3>
+          <p>Study guides, Scripture-based discussion questions, curriculum, and tools to help leaders facilitate meaningful study.</p>
+          <a class="resource-link" href="#" data-placeholder="Bible Study SharePoint folder">Explore Bible Study resources <span>↗</span></a>
+        </article>
+      </div>
+      <div class="empty-state" id="emptyState" hidden>No resources match your search. Try another term or category.</div>
+    </section>
+
+    <section class="training-band" id="training">
+      <div class="training-inner">
+        <div class="training-copy"><p class="eyebrow">LEARN & GROW</p><h2>Healthy leaders<br>help people flourish.</h2><p>Find practical training and encouragement for welcoming people, building community, and leading with care.</p><a class="button button-dark" href="#resources">Explore training <span>→</span></a></div>
+        <div class="training-list">
+          <a href="#" data-placeholder="Getting Started"><span class="list-number">01</span><span><strong>Start with the basics</strong><small>Foundations for serving well</small></span><span class="list-arrow">↗</span></a>
+          <a href="#" data-placeholder="Leading People"><span class="list-number">02</span><span><strong>Care & connection</strong><small>Communication, hospitality, and follow-up</small></span><span class="list-arrow">↗</span></a>
+          <a href="#" data-placeholder="Planning and Execution"><span class="list-number">03</span><span><strong>Plan a gathering</strong><small>Prepare well and follow through</small></span><span class="list-arrow">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="events-section section-wrap" id="events">
+      <div class="section-heading">
+        <div><p class="eyebrow">STAY IN THE LOOP</p><h2>Upcoming & important</h2></div>
+        <p class="muted">Add your ministry dates and SharePoint links here.</p>
+      </div>
+      <div class="event-grid">
+        <article class="event-card"><span class="event-tag">UPCOMING</span><h3>Adult Ministries Leader Gathering</h3><p>Connect with other leaders, share updates, and prepare for what’s ahead.</p><span class="event-date">Add your next date and location</span></article>
+        <article class="event-card"><span class="event-tag">PLANNING</span><h3>Upcoming Ministry Opportunities</h3><p>Keep track of ways to serve, upcoming gatherings, and important planning milestones.</p><span class="event-date">Add the next opportunity and details</span></article>
+      </div>
+    </section>
+
+    <section class="help-band" id="help">
+      <div><p class="eyebrow">NEED A HAND?</p><h2>Need help finding something?</h2><p>Reach out to your Adult Ministries team for help locating a resource or getting connected.</p></div>
+      <a class="button button-light" id="contactLink" href="mailto:your-ministry-email@example.com">Contact the team <span>→</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#"><span class="brand-mark">M</span><span><strong>Adult Ministries</strong><small>LEADER RESOURCE HUB</small></span></a><p>Helping people grow together.</p><span>© <span id="year"></span> Adult Ministries</span></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
